@@ -1,0 +1,8 @@
+# netlify.toml
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/docs"         # The custom path you want to use
+  to = "/docs.html"      # The path to your static HTML page
+  status = 200
